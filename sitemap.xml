@@ -51,6 +51,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://notewell.site/posts/field_note-004-t46eue.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://notewell.site/posts/guide-001-cvj7o0.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -67,6 +72,11 @@
   </url>
   <url>
     <loc>https://notewell.site/posts/guide-003-crrl52.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://notewell.site/posts/guide-003-nos28f.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -111,12 +121,22 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://notewell.site/posts/major_compare-005-rmv74v.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://notewell.site/posts/myth-001-1513sgd.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://notewell.site/posts/myth-001-xrabvy.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://notewell.site/posts/myth-002-1kjhtey.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -137,6 +157,11 @@
   </url>
   <url>
     <loc>https://notewell.site/posts/qa-001-1m8lf65.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://notewell.site/posts/qa-001-va3sht.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
