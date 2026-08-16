@@ -1,20 +1,212 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <title>유흥 이용 가이드 — 블로그 운영자의 소개</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="서울을 포함한 다양한 지역의 셔츠룸, 룸싸롱, 텐프로 등 유흥업종에 대한 정보 블로그의 운영자를 소개합니다. 업종별 차이와 이용 절차를 객관적으로 정리하고, 선택 기준과 체크리스트를 제공하는 전문가의 목소리를 확인하세요.">
-    <meta name="keywords" content="유흥 이용 가이드, 셔츠룸, 룸싸롱, 텐프로, 텐카페, 쩜오, 하이퍼블릭, 풀싸롱, 가라오케, 노래방, 비즈니스클럽, 마사지, 펍, 서울 정보 블로그">
-    <link rel="canonical" href="https://notewell.site/about.html">
-    <meta property="og:title" content="유흥 이용 가이드 — 블로그 운영자의 소개">
-    <meta property="og:description" content="서울을 포함한 다양한 지역의 셔츠룸, 룸싸롱, 텐프로 등 유흥업종에 대한 정보 블로그의 운영자를 소개합니다. 업종별 차이와 이용 절차를 객관적으로 정리하고, 선택 기준과 체크리스트를 제공하는 전문가의 목소리를 확인하세요.">
-    <meta property="og:type" content="website">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>유흥 이용 가이드 — 블로그 운영자의 소개</title>
+  <meta name="description" content="서울을 포함한 다양한 지역의 셔츠룸, 룸싸롱, 텐프로 등 유흥업종에 대한 정보 블로그의 운영자를 소개합니다. 업종별 차이와 이용 절차를 객관적으로 정리하고, 선택 기준과 체크리스트를 제공하는 전문가의 목소리를 확인하세요.">
+  <link rel="canonical" href="https://notewell.site/about.html">
+  <meta property="og:title" content="유흥 이용 가이드 — 블로그 운영자의 소개">
+  <meta property="og:description" content="서울을 포함한 다양한 지역의 셔츠룸, 룸싸롱, 텐프로 등 유흥업종에 대한 정보 블로그의 운영자를 소개합니다. 업종별 차이와 이용 절차를 객관적으로 정리하고, 선택 기준과 체크리스트를 제공하는 전문가의 목소리를 확인하세요.">
+  <meta property="og:type" content="website">
   <meta property="og:url" content="https://notewell.site/about.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+/* 기본 색상 및 타이포그래피 */
+:root{
+ --primary:#2d2a26;
+ --secondary:#faf8f5;
+ --accent:#e07a5f;
+}
+*{box-sizing:border-box;}
+body{
+ margin:0;
+ font-family:ui-monospace, system-ui, sans-serif;
+ background:var(--secondary);
+ color:var(--primary);
+ line-height:1.6;
+}
+.container{
+ max-width:960px;
+ margin:auto;
+ padding:24px;
+}
+/* 헤더·네비 */
+.v-foot-3x5a{
+ position:sticky;
+ top:0;
+ background:var(--secondary);
+ border-bottom:1px solid var(--primary);
+ z-index:10;
+}
+.v-grid-ncex{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ padding:8px 0;
+}
+.t-card-jojf{
+ font-weight:700;
+ font-size:1.2rem;
+}
+.v-txt-pon3{
+ list-style:none;
+ display:flex;
+ gap:24px;
+ margin:0;
+ padding:0;
+}
+.v-txt-pon3 li a{
+ text-decoration:none;
+ color:var(--primary);
+ border-bottom:2px solid transparent;
+ transition:color .2s, border-color .2s;
+}
+.v-txt-pon3 li a:hover{
+ color:var(--accent);
+ border-bottom-color:var(--accent);
+}
+.n-item-40zf{
+ display:none;
+ cursor:pointer;
+ font-size:1.5rem;
+}
+@media (max-width:768px){
+ .v-txt-pon3{
+ flex-direction:column;
+ display:none;
+ background:var(--secondary);
+ position:absolute;
+ top:100%;
+ left:0;
+ width:100%;
+ border-top:1px solid var(--primary);
+ }
+ .v-txt-pon3.show{
+ display:flex;
+ }
+ .n-item-40zf{
+ display:block;
+ }
+}
+
+/* 섹션 기본 */
+section{
+ margin-top:40px;
+ padding-top:24px;
+ border-top:1px solid var(--primary);
+}
+h1,h2,h3{
+ margin:0 0 16px 0;
+ font-weight:700;
+ line-height:1.2;
+}
+h1{font-size:2rem;}
+h2{font-size:1.5rem;}
+h3{font-size:1.2rem;}
+p{margin:0 0 16px 0;}
+ul,ol{margin:0 0 16px 16px;}
+table{
+ width:100%;
+ border-collapse:collapse;
+ margin-bottom:16px;
+}
+th,td{
+ border:1px solid var(--primary);
+ padding:8px;
+ text-align:left;
+}
+th{
+ background:var(--accent);
+ color:var(--secondary);
+}
+
+/* 히어로 */
+.k-ico-oldn{
+ background:var(--secondary);
+ padding:48px 0;
+}
+.k-ico-oldn h1{
+ font-size:2.5rem;
+ margin-bottom:16px;
+}
+.k-ico-oldn p{
+ font-size:1.2rem;
+}
+
+/* 선택 기준 테이블 */
+.x-ico-ubww table th{
+ background:var(--primary);
+ color:var(--secondary);
+}
+
+/* 체크리스트 */
+.k-box-anka ul{
+ list-style:disc;
+}
+
+/* 조건별 적합성 정의리스트 */
+.q-list-i9j3 dl{
+ display:grid;
+ grid-template-columns:max-content 1fr;
+ gap:8px 16px;
+}
+.q-list-i9j3 dt{
+ font-weight:700;
+}
+.q-list-i9j3 dd{
+ margin:0;
+}
+
+/* FAQ */
+.x-wrap-gw7w .n-box-gawd-item{
+ margin-bottom:24px;
+}
+.x-wrap-gw7w summary{
+ cursor:pointer;
+ font-weight:700;
+ padding:8px;
+ border:1px solid var(--primary);
+}
+.x-wrap-gw7w summary:hover{
+ background:var(--secondary);
+}
+
+/* Bio */
+.v-head-as9t{
+ border-left:4px solid var(--accent);
+ padding-left:12px;
+ margin:24px 0;
+ font-style:italic;
+}
+
+/* Footer */
+.n-img-vnz1{
+ text-align:center;
+ padding:24px 0;
+ font-size:0.9rem;
+ color:var(--primary);
+ border-top:1px solid var(--primary);
+}
+</style>
   <meta name="twitter:card" content="summary">
 </head>
 <body>
-    <div class="container">
+  <div class="container">
+    <header class="v-foot-3x5a">
+ <div class="container v-grid-ncex">
+ <div class="t-card-jojf">유흥 이용 가이드</div>
+ <div class="n-item-40zf" onclick="document.getElementById('menu').classList.toggle('show')">&#9776;</div>
+ <ul class="v-txt-pon3" id="menu">
+ <li><a href="#">홈</a></li>
+ <li><a href="#">카테고리</a></li>
+ <li><a href="#">이용 가이드</a></li>
+ <li><a href="#">FAQ</a></li>
+ </ul>
+ </div>
+</header>
+    <main>
+<div class="container">
         <header class="v-foot-3x5a">
             <nav class="v-grid-ncex">
                 <ul class="v-txt-pon3">
@@ -22,7 +214,7 @@
                     <li><a href="#">소개</a></li>
                     <li><a href="#">FAQ</a></li>
                 </ul>
-            </nav>
+            <a href="posts.html">글 목록</a></nav>
         </header>
         <main>
             <section class="t-card-jojf">
@@ -31,5 +223,7 @@
             </section>
         </main>
     </div>
+    </main>
+  </div>
 </body>
 </html>

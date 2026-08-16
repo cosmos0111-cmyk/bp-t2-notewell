@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (1/2) · t2-notewell</title>
+  <meta name="description" content="t2-notewell에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://notewell.site/posts.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+/* 기본 색상 및 타이포그래피 */
+:root{
+ --primary:#2d2a26;
+ --secondary:#faf8f5;
+ --accent:#e07a5f;
+}
+*{box-sizing:border-box;}
+body{
+ margin:0;
+ font-family:ui-monospace, system-ui, sans-serif;
+ background:var(--secondary);
+ color:var(--primary);
+ line-height:1.6;
+}
+.container{
+ max-width:960px;
+ margin:auto;
+ padding:24px;
+}
+/* 헤더·네비 */
+.v-foot-3x5a{
+ position:sticky;
+ top:0;
+ background:var(--secondary);
+ border-bottom:1px solid var(--primary);
+ z-index:10;
+}
+.v-grid-ncex{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ padding:8px 0;
+}
+.t-card-jojf{
+ font-weight:700;
+ font-size:1.2rem;
+}
+.v-txt-pon3{
+ list-style:none;
+ display:flex;
+ gap:24px;
+ margin:0;
+ padding:0;
+}
+.v-txt-pon3 li a{
+ text-decoration:none;
+ color:var(--primary);
+ border-bottom:2px solid transparent;
+ transition:color .2s, border-color .2s;
+}
+.v-txt-pon3 li a:hover{
+ color:var(--accent);
+ border-bottom-color:var(--accent);
+}
+.n-item-40zf{
+ display:none;
+ cursor:pointer;
+ font-size:1.5rem;
+}
+@media (max-width:768px){
+ .v-txt-pon3{
+ flex-direction:column;
+ display:none;
+ background:var(--secondary);
+ position:absolute;
+ top:100%;
+ left:0;
+ width:100%;
+ border-top:1px solid var(--primary);
+ }
+ .v-txt-pon3.show{
+ display:flex;
+ }
+ .n-item-40zf{
+ display:block;
+ }
+}
+
+/* 섹션 기본 */
+section{
+ margin-top:40px;
+ padding-top:24px;
+ border-top:1px solid var(--primary);
+}
+h1,h2,h3{
+ margin:0 0 16px 0;
+ font-weight:700;
+ line-height:1.2;
+}
+h1{font-size:2rem;}
+h2{font-size:1.5rem;}
+h3{font-size:1.2rem;}
+p{margin:0 0 16px 0;}
+ul,ol{margin:0 0 16px 16px;}
+table{
+ width:100%;
+ border-collapse:collapse;
+ margin-bottom:16px;
+}
+th,td{
+ border:1px solid var(--primary);
+ padding:8px;
+ text-align:left;
+}
+th{
+ background:var(--accent);
+ color:var(--secondary);
+}
+
+/* 히어로 */
+.k-ico-oldn{
+ background:var(--secondary);
+ padding:48px 0;
+}
+.k-ico-oldn h1{
+ font-size:2.5rem;
+ margin-bottom:16px;
+}
+.k-ico-oldn p{
+ font-size:1.2rem;
+}
+
+/* 선택 기준 테이블 */
+.x-ico-ubww table th{
+ background:var(--primary);
+ color:var(--secondary);
+}
+
+/* 체크리스트 */
+.k-box-anka ul{
+ list-style:disc;
+}
+
+/* 조건별 적합성 정의리스트 */
+.q-list-i9j3 dl{
+ display:grid;
+ grid-template-columns:max-content 1fr;
+ gap:8px 16px;
+}
+.q-list-i9j3 dt{
+ font-weight:700;
+}
+.q-list-i9j3 dd{
+ margin:0;
+}
+
+/* FAQ */
+.x-wrap-gw7w .n-box-gawd-item{
+ margin-bottom:24px;
+}
+.x-wrap-gw7w summary{
+ cursor:pointer;
+ font-weight:700;
+ padding:8px;
+ border:1px solid var(--primary);
+}
+.x-wrap-gw7w summary:hover{
+ background:var(--secondary);
+}
+
+/* Bio */
+.v-head-as9t{
+ border-left:4px solid var(--accent);
+ padding-left:12px;
+ margin:24px 0;
+ font-style:italic;
+}
+
+/* Footer */
+.n-img-vnz1{
+ text-align:center;
+ padding:24px 0;
+ font-size:0.9rem;
+ color:var(--primary);
+ border-top:1px solid var(--primary);
+}
+</style>
+  <meta property="og:title" content="글 목록 (1/2) · t2-notewell">
+  <meta property="og:description" content="t2-notewell에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://notewell.site/posts.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header class="v-foot-3x5a">
+ <div class="container v-grid-ncex">
+ <div class="t-card-jojf">유흥 이용 가이드</div>
+ <div class="n-item-40zf" onclick="document.getElementById('menu').classList.toggle('show')">&#9776;</div>
+ <ul class="v-txt-pon3" id="menu">
+ <li><a href="#">홈</a></li>
+ <li><a href="#">카테고리</a></li>
+ <li><a href="#">이용 가이드</a></li>
+ <li><a href="#">FAQ</a></li>
+ </ul>
+ </div>
+</header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 34개 · 1/2 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/field_note-001-1iop6qg.html">권리금 2억 받고 나간 가게, 그 뒷이야기</a>
+        <p class="post-item__summary">2023년에 홍대에서 권리금 2억 받고 나간 점주가 있었어요. 잘 나가던 데였는데. 계약서 마지막 장 넘기는 순간 표정이 복잡하더군요. 그 표정이 기억납니다. 왜냐면 6개월 뒤 그 자리에 들어온 새</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/field_note-002-189seae.html">권리금 2억 받고 나간 가게, 원가 장부를 뒤적여보니</a>
+        <p class="post-item__summary">&quot;원래 임대인이 절반을 깎아줬거든요. 그거 빼고 계산하면 사실상 손해 본 거나 마찬가지예요.&quot;</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/field_note-003-1ezor79.html">룸 단위 서비스업, 마진율 70%라는 새빨간 거짓말</a>
+        <p class="post-item__summary">물통에 생수병 꽂아둔 각도만 봐도 그 가게 망할지 흥할지 안다. 말이 좀 과하긴 한데, 2021년 강남 모처에서 마담이 계산기 두드리는 거 멍하니 보면서 느낀 거다. 가격표는 단순해 보여도 그 안에</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/field_note-003-1i207cg.html">서울 유흥 초보를 위한 예약금 가이드</a>
+        <p class="post-item__summary">서울에서 처음 업소를 찾는 사람들은 대개 예약금이라는 명목의 돈을 어떻게 처리해야 할지 몰라 전전긍긍합니다. 잘 몰라서 그러는데, 애초에 선입금을 요구하는 곳이 정상적인지 판단하는 기준부터 세우는 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/field_note-004-1twyu00.html">홍대 밤문화, 6개월 만에 폐업한 우리의 이야기</a>
+        <p class="post-item__summary">2023년 홍대 상권에서 폐업한 업소들은 어떤 공통된 원인이 있을까? 우리 업소도 그 중 하나였다. 처음에는 잘못된 가치판단, 마케팅 부족, 자금난 등 여러 이유를 들었지만, 실제로는 더 복잡했다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/field_note-004-t46eue.html">단골이 계산기 두드려본 룸 단위 서비스업의 원가 실체</a>
+        <p class="post-item__summary">맥캘란 12년 더블캐스크의 2023년 기준 주류 도매가는 약 95,000원이다. 하지만 일반적인 룸 형태의 업장 메뉴판에는 최소 280,000원부터 가격이 시작한다. 마진율이 200%에 육박하는 셈</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-001-cvj7o0.html">2023 홍대 뒷골목 폐업 가게들, 단골이 계산해본 원가의 비밀</a>
+        <p class="post-item__summary">2023년 9월, 홍대 뒷골목. 폐업 났다는 A라는 술집 앞을 지나가면서 옆에 있던 형이 그랬다. &quot;사장이 맨날 돈이 안 남는다고 했거든.&quot;</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-002-ej5fhx.html">홍대에서 음료 2잔 값으로 계산한 사장들의 죽음 기록</a>
+        <p class="post-item__summary">2023년 여름, 홍대입구역 9번 출구에서 합정 방향으로 올라가는 골목. 2년 넘게 들락거린 단골 타코바가 문을 닫던 날, 나는 의자에 앉아서 메뉴판 사진을 찍고 있었다. 인수인이 걸어 들어오고, </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-002-y3edyv.html">월 3000 찍어도 손에 쥐는 게 없더라</a>
+        <p class="post-item__summary">룸 1개당 30만원 받는 A업소와 15만원 받는 B업소 중 어디가 더 많이 남길 거 같아?</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-003-crrl52.html">형님픽: 룸 가격대별 원가 실전 추적, 이 눈치 없으면 호구된다</a>
+        <p class="post-item__summary">오늘 새벽 4시 반, 그 샴페인 한 병에 28만원 찍히는 거</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-003-nos28f.html">잘 몰라서 그러는데 홍대에서 월 3천 찍고도 야반도주하는 원가 설계 구조</a>
+        <p class="post-item__summary">2023년 10월 홍대 삼거리포차 뒤편 골목, 한쪽 가게는 웨이팅 줄이 인도를 막아 민원이 빗발치는데 바로 옆집은 보증금 까먹고 야반도주용 탑차가 짐을 싣고 있었다. 두 가게 모두 겉보기엔 트렌디한</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-005-lcuas5.html">권리금 2억 받고 나간 룸살롱, 속으로는 어떤 장부가 돌아가고 있었을까</a>
+        <p class="post-item__summary">127㎡ 한정식 룸살롱, 보증금 5000만에 월세 380만, 권리금 2억에 실거래 완료. 통장에 들어온 순간 사장은 숨을 토했다. 2억이 전부 순수익이라고 생각하면 오산이다. 취득세, 중개수수료, </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-001-10buqna.html">권리금 2억 챙겨나간 홍대 가게의 실거래 내역서</a>
+        <p class="post-item__summary">2023년 4월, 홍대 메인스트릿 보증금 5000에권리금 2억을 주고 술집을 인수한 형이 있었다. 24개월 계약에 월 임대 680. 7개월 만에 문을 닫았다. 나는 그 과정을 옆에서 구경했다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-001-vji5il.html">2023 홍대 폐업 업소들의 공통점과 살아남은 가게들의 비밀</a>
+        <p class="post-item__summary">2023년 3월, 홍대 연남동 쪽에서 카페 운영하던 후배가 연락이 왔다. 월 매출 3000만원 찍고도 적자라고 했다. 이유를 들어보니 환기 시설 문제로 영업 정지 3주, 손님 절반 빠지고, 월세 밀</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-002-1efa30m.html">권리금 2억 받고 나간 가게, 사장이 마지막으로 적은 숫자</a>
+        <p class="post-item__summary">작년 12월, 홍대입구역에서 세 블록 떨어진 골목의 A가게. 계약 해지서 뒷면에 볼펜으로 적힌 메모가 있었다. &quot;에어컨 설치비 1,200만 원, 반납 시 분해비 380만 원.&quot; 이 메모를 본 적 있</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-003-wrzb1h.html">유흥 이용 가이드가 알려주지 않는 폐업 가게의 가격표</a>
+        <p class="post-item__summary">2023년 3월, 홍대 놀이터 쪽에서 월 3000만 원 찍던 술집이 문 닫았다. 손님은 넘쳤고, 리뷰는 좋았으며, 주말엔 웨이팅까지 있었다. 그런데 사장은 두 달 뒤 점포 인수인계를 올렸다. 유흥 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-004-1bzc4s4.html">2억 권리금 받고 나간 홍대 가게, 결국 내가 본 진짜 이유</a>
+        <p class="post-item__summary">권리금 2억은 사기다. 적어도 2023년 홍대에서는 그랬다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-004-1i2mamx.html">홍대 폐업 업소, 살아남은 곳은 무엇이 다른가?</a>
+        <p class="post-item__summary">2023년 홍대 상권에서 폐업한 업소들이 많습니다. 하지만 어떤 업소들은 살아남았을까요? 그 차이점을 분석해 볼 필요가 있습니다. 저는 임대차 계약 전문가로서, 권리금 2억 받고 나간 가게의 실거래</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-005-1r7x8zy.html">홍대 유흥 업소들의 삶과 죽음, 그 안에 숨겨진 이야기</a>
+        <p class="post-item__summary">2023년 홍대 상권에서 폐업한 업소들이 많았습니다. 그들 중 어떤 업소들은 살아남았을까요? 그리고 살아남은 업소들은 어떤 차별화 전략을 사용했을까요?</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-005-rmv74v.html">권리금 2억짜리 가게가 왜 망했는지 아나? 장부 뒤에 숨은 숫자들</a>
+        <p class="post-item__summary">권리금 2억을 주고 들어간 가게가 1년도 안 돼서 털고 나갈 때, 보통 사람들은 입지 탓을 하지만 실상은 다릅니다. 제가 본 그 양반은 매출의 60%가 주대에서 나온다고 좋아했지만, 정작 룸 단위 </p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <span class="pager__current">1</span>
+      <a class="pager__link" href="posts-2.html">2</a>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>

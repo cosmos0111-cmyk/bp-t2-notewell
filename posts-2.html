@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (2/2) · t2-notewell</title>
+  <meta name="description" content="t2-notewell에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://notewell.site/posts-2.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+/* 기본 색상 및 타이포그래피 */
+:root{
+ --primary:#2d2a26;
+ --secondary:#faf8f5;
+ --accent:#e07a5f;
+}
+*{box-sizing:border-box;}
+body{
+ margin:0;
+ font-family:ui-monospace, system-ui, sans-serif;
+ background:var(--secondary);
+ color:var(--primary);
+ line-height:1.6;
+}
+.container{
+ max-width:960px;
+ margin:auto;
+ padding:24px;
+}
+/* 헤더·네비 */
+.v-foot-3x5a{
+ position:sticky;
+ top:0;
+ background:var(--secondary);
+ border-bottom:1px solid var(--primary);
+ z-index:10;
+}
+.v-grid-ncex{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ padding:8px 0;
+}
+.t-card-jojf{
+ font-weight:700;
+ font-size:1.2rem;
+}
+.v-txt-pon3{
+ list-style:none;
+ display:flex;
+ gap:24px;
+ margin:0;
+ padding:0;
+}
+.v-txt-pon3 li a{
+ text-decoration:none;
+ color:var(--primary);
+ border-bottom:2px solid transparent;
+ transition:color .2s, border-color .2s;
+}
+.v-txt-pon3 li a:hover{
+ color:var(--accent);
+ border-bottom-color:var(--accent);
+}
+.n-item-40zf{
+ display:none;
+ cursor:pointer;
+ font-size:1.5rem;
+}
+@media (max-width:768px){
+ .v-txt-pon3{
+ flex-direction:column;
+ display:none;
+ background:var(--secondary);
+ position:absolute;
+ top:100%;
+ left:0;
+ width:100%;
+ border-top:1px solid var(--primary);
+ }
+ .v-txt-pon3.show{
+ display:flex;
+ }
+ .n-item-40zf{
+ display:block;
+ }
+}
+
+/* 섹션 기본 */
+section{
+ margin-top:40px;
+ padding-top:24px;
+ border-top:1px solid var(--primary);
+}
+h1,h2,h3{
+ margin:0 0 16px 0;
+ font-weight:700;
+ line-height:1.2;
+}
+h1{font-size:2rem;}
+h2{font-size:1.5rem;}
+h3{font-size:1.2rem;}
+p{margin:0 0 16px 0;}
+ul,ol{margin:0 0 16px 16px;}
+table{
+ width:100%;
+ border-collapse:collapse;
+ margin-bottom:16px;
+}
+th,td{
+ border:1px solid var(--primary);
+ padding:8px;
+ text-align:left;
+}
+th{
+ background:var(--accent);
+ color:var(--secondary);
+}
+
+/* 히어로 */
+.k-ico-oldn{
+ background:var(--secondary);
+ padding:48px 0;
+}
+.k-ico-oldn h1{
+ font-size:2.5rem;
+ margin-bottom:16px;
+}
+.k-ico-oldn p{
+ font-size:1.2rem;
+}
+
+/* 선택 기준 테이블 */
+.x-ico-ubww table th{
+ background:var(--primary);
+ color:var(--secondary);
+}
+
+/* 체크리스트 */
+.k-box-anka ul{
+ list-style:disc;
+}
+
+/* 조건별 적합성 정의리스트 */
+.q-list-i9j3 dl{
+ display:grid;
+ grid-template-columns:max-content 1fr;
+ gap:8px 16px;
+}
+.q-list-i9j3 dt{
+ font-weight:700;
+}
+.q-list-i9j3 dd{
+ margin:0;
+}
+
+/* FAQ */
+.x-wrap-gw7w .n-box-gawd-item{
+ margin-bottom:24px;
+}
+.x-wrap-gw7w summary{
+ cursor:pointer;
+ font-weight:700;
+ padding:8px;
+ border:1px solid var(--primary);
+}
+.x-wrap-gw7w summary:hover{
+ background:var(--secondary);
+}
+
+/* Bio */
+.v-head-as9t{
+ border-left:4px solid var(--accent);
+ padding-left:12px;
+ margin:24px 0;
+ font-style:italic;
+}
+
+/* Footer */
+.n-img-vnz1{
+ text-align:center;
+ padding:24px 0;
+ font-size:0.9rem;
+ color:var(--primary);
+ border-top:1px solid var(--primary);
+}
+</style>
+  <meta property="og:title" content="글 목록 (2/2) · t2-notewell">
+  <meta property="og:description" content="t2-notewell에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://notewell.site/posts-2.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header class="v-foot-3x5a">
+ <div class="container v-grid-ncex">
+ <div class="t-card-jojf">유흥 이용 가이드</div>
+ <div class="n-item-40zf" onclick="document.getElementById('menu').classList.toggle('show')">&#9776;</div>
+ <ul class="v-txt-pon3" id="menu">
+ <li><a href="#">홈</a></li>
+ <li><a href="#">카테고리</a></li>
+ <li><a href="#">이용 가이드</a></li>
+ <li><a href="#">FAQ</a></li>
+ </ul>
+ </div>
+</header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 34개 · 2/2 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-001-1513sgd.html">월 3천 찍고 문 닫은 룸살롱, 손님이 모르는 원가의 반란</a>
+        <p class="post-item__summary">ROOM세팅비 170만원. 이 숫자를 처음 봤을 때 나는 웃었다. 매출 3천이면 룸 10개에 하루 100만원인데 세팅비가 뭐가 문제겠나 싶었다. 6개월 뒤 정산표를 들여다보는 순간 그 웃음이 어디로</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-001-xrabvy.html">서울 유흥의 숨겨진 계산법과 가격 거품 파헤치기</a>
+        <p class="post-item__summary">잘 몰라서 그런데, 서울에서 밤 문화를 즐길 때 매번 왜 이렇게 계산이 복잡한지 모르겠습니다. 주변에서는 다들 분위기에 취해 돈을 쓴다고 하지만, 사실 정신 바짝 차리지 않으면 눈앞에서 눈 뜨고 코</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-002-1kjhtey.html">권리금 2억짜리 서교동 지하 룸의 실거래 내역서를 뜯어봤다</a>
+        <p class="post-item__summary">권리금 2억짜리 룸 테이블은 하루에 양주를 몇 병 팔아야 본전일까요?</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-002-hceno8.html">룸 단위 서비스업에서 돈 버는 가격대 따로 있다는 말, 2023년 기준으로 반은 틀렸다</a>
+        <p class="post-item__summary">2022년 10월. 강남 논현동 골목 2층에 40평짜리 룸 7개를 냈다. 보증금 1억에 월세 450, 권리금 8천. 인테리어는 평당 180만원으로 간신히 잡았다. 친구들한테 &quot;이번에 제대로 한다&quot;고</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-004-vu9pi.html">홍대 월매출 3천 찍고 문 닫은 이유, 입소문이랑 아무 상관 없었음</a>
+        <p class="post-item__summary">잘 모르는 분들은 &quot;경쟁이 치열해서&quot;라고 말합니다. 틀린 말은 아닌데, 진짜 이유가 아닙니다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-005-1fl0769.html">월 3천 벌어도 한 푼도 안 남긴 룸 장부, 솔직히 열어보면</a>
+        <p class="post-item__summary">2019년 봄, 화곡동 룸 8개짜리. 첫 달 매출 3,120만원 찍혔다. 주변에선 &quot;터졌다&quot;고 했고, 나도 그렇게 믿었다. 4월 첫째 주 장부 정리 끝나고 나서야 깨달았다. 매출은 매출이고, 현금은</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-001-1m8lf65.html">유흥 이용 가이드, 그 속의 비즈니스 이야기</a>
+        <p class="post-item__summary">2023년 4월, 나는 임대차 계약 전문가로 일하면서 한 가지 의문에 빠지게 되었다. 권리금 2억 받고 나간 가게의 실거래 내역서를 보면서, 그 비싼 권리금이 정말 가치가 있는지에 대해의문을 느꼈다</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-001-va3sht.html">홍대 바닥에서 월 3천 벌고도 야반도주한 형씨들 진짜 이유 물어봤냐</a>
+        <p class="post-item__summary">2023년 11월 찬바람 불던 홍대 삼거리포차 뒷골목, 15평짜리 이자카야 주방에서 때에 찌든 업소용 간택기 레인지가 1톤 트럭에 실려 나가던 모습이 아직도 선하다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-002-8xxlr1.html">권리금 2억 받고 나간 방식 가게, 정작 남긴 건 마이너스였다</a>
+        <p class="post-item__summary">작년 한 방식 마사지 업소가 권리금 2억에 양도됐다. 3년 운영. 월 매출 4천~5천 사이. 새 주인이 들어와 8개월 만에 문을 닫았다. 나는 이 계약서 작업을 중개 쪽에서 지켜본 사람이다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-002-jhc0ji.html">홍대 뒷골목 술집 메뉴판으로 읽는 생존법</a>
+        <p class="post-item__summary">2023년 11월, 홍대입구역 9번 출구에서 200미터 안쪽 퓨전 바가 문을 닫았다. 8개월 만이었다. 그 자리 바로 옆도 6개월을 못 버텼다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-003-1b6db0a.html">권리는 남고 돈은 새는 방, 룸 세팅 비용의 진짜 지도</a>
+        <p class="post-item__summary">2019년 3월, 강남역에서 100m 떨어진 룸살롱 하나가 문을 닫았다. 새 주인은 권리금 2억을 줬다. 첫 달 전기요금 고지서가 387만원이었다. 그 숫자 하나가 모든 걸 설명한다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-004-ckupke.html">룸값에 붙는 숨은 숫자들, 원가표 한번 안 보신 분들만 손해입니다</a>
+        <p class="post-item__summary">작년 겨울, 강남역 뒤편 골목. 2015년에 오픈해서 8년간 운영하던 룸Karaoke 매물이 나왔다. 권리금 2억, 월 임대료 1,100만원. 사장은 &quot;남은 건 거의 내 돈&quot;이라 말했지만, 실거래 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-005-1fo546v.html">월 3천 찍고도 문 닫은 홍대 가게 원가 장부</a>
+        <p class="post-item__summary">월 매출 3,200만 원. 2023년 8월 홍대입구역 9번 출구 도보 3분, 120평 규모. 월 임대료 780만 원. 이 조건에서 남은 돈이 200만 원도 안 됐다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-005-1msryl6.html">월세 180에 마진 70% 찍던 가게, 6개월 만에 간판 내린 이유 하나</a>
+        <p class="post-item__summary">잘못 짚은 게 하나 있어요. 다들 홍대 폐업 원인을 &quot;비싼 임대료&quot;에서 찾는데, 그건 표면적인 수치일 뿐입니다. 지난해 제가 운영하던 곳도 월 매출 3000은 꾸준히 넘겼거든요. 1층이 아니라 지하</p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <a class="pager__link" href="posts.html">1</a>
+      <span class="pager__current">2</span>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>
